@@ -1,1 +1,28 @@
-a.out
+
+# Ignore compiled object files and binaries
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# Ignore build directories
+/build/
+/bin/
+/Debug/
+/Release/
+
+# Ignore temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
